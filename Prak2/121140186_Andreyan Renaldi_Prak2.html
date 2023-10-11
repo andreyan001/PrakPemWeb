@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="head">
+            <img src="op2.jpg" alt="ACE">
+
+            <div class="side">
+                <h1>Portgas D Ace</h1>
+                <h3>Bajak laut paling tampan dan hebat di OnePiece</h3>
+            </div>
+        </header>
+
+        <nav class="cp">
+            <li class="menu">0123456789</li>
+            <li class="menu">@ portD.acee</li>
+            <li class="menu">fireace01@gmail.com</li>
+        </nav>
+
+        <section class="tentang">
+            <h3>Tentang Saya</h3>
+            <p> Seorang bajak laut yang penuh kebebasan, semangat dan berpengalaman dalam berlayar di Grand Line. <br>
+                Memiliki kemampuan Buah Iblis yang unik, yaitu Mera Mera no Mi, yang memungkinkan saya mengendalikan api dengan kekuatan besar. 
+            </p>
+            <video src="JJ-OP.mp4" controls></video>
+        </section>
+
+        <section class="pengalaman">
+            <h3>Pengalaman</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Bajak Laut</th>
+                        <th>Jabatan</th>
+                        <th>Jumlah Bawahan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Shirohige</td>
+                        <td>Kapten Divisi 2</td>
+                        <td>1000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="hubungi">
+            <form action="jawaban.php" method="post">
+                <h3>Penilaian</h3>
+                <p>Apakah tugas praktikum saya sudah baik?</p>
+                <input type="radio" name="soal1" value="yes">Iya<br>
+                <input type="radio" name="soal1" value="no">Tidak<br>
+                
+                <p>Apakah saya bisa mendapat nilai yg baik?</p>
+                <input type="checkbox" name="soal2" value="yes">Bisa<br>
+                <input type="checkbox" name="soal2" value="yes/no">Mungkin<br>
+                <input type="checkbox" name="soal2" value="no">Tidak<br><br>
+                
+                <label for="saran">Saran dan Masukan</label> <br>
+                <textarea id="saran" name="saran" rows="4" cols="50" placeholder="Ketik Disini"></textarea><br>
+                <button type="submit">kirim</button>
+            </form>
+        </section>
+
+    </div>
+
+</body>
+</html>

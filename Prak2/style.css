@@ -1,0 +1,75 @@
+.container{
+    padding: 10px;
+    background-color: rgb(238, 210, 149);
+    border-radius: 10px;
+}
+
+.head{
+    padding: 10px;
+    display: flex;
+    background-color:rgb(255, 153, 0);
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cp{
+    display: flex;
+    background-color: rgb(255, 174, 0);
+    list-style: none;
+    margin-top: 1px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+section{
+    background-color:rgb(255, 174, 0);
+    border-radius: 10px;
+}
+
+li{
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.side{
+    margin-left: 10px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.tentang{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+}
+.tentang h3{
+    margin-left: 10px;
+}
+.tentang p{
+    margin-left: 10px;
+}
+
+.pengalaman{
+    flex-direction: column;
+}
+.pengalaman h3{
+    margin-left: 10px;
+}
+
+video{
+    align-self: center;
+    width: 40%;
+    height: 40%;
+}
+
+table{
+    display:contents;
+    flex-direction: column;
+    align-items: center;
+}
+
+
