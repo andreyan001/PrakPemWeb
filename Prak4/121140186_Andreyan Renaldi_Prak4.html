@@ -1,0 +1,36 @@
+<!-- Andreyan Renaldi -->
+<!-- 121140186 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator Bilangan Ganjil dan Genap</title>
+    <script>
+        function hitungGanjilGenap() {
+            let inputBilangan = document.getElementById("bilangan").value;
+            let Ganjil = 0;
+            let Genap = 0;
+
+            for (let i = 1; i <= inputBilangan; i++) {
+                if (i % 2 == 0) {
+                    Genap++;
+                } else {
+                    Ganjil++;
+                }
+            }
+
+            document.getElementById("hasil").innerHTML = "Hasil <br> " + "Jumlah Bilangan Ganjil: " + Ganjil + "<br>Jumlah Bilangan Genap: " + Genap;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Menghitung Bilangan Ganjil dan Genap</h1>
+    <label for="bilangan">Masukkan bilangan bulat positif: </label> <br>
+    <input type="number" id="bilangan" name="bilangan">
+    <button onclick="hitungGanjilGenap()">Hitung</button>
+    <br><br>
+    <span id="hasil"></span> <br>
+</body>
+
+</html>
