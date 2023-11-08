@@ -1,0 +1,49 @@
+/* Andreyan Renaldi */
+/* 121140186  */
+
+input {
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #0c0e77;
+}
+
+.kalkulator {
+    text-align: right;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000000;
+    padding: 15px;
+    border-radius: 5%;
+    
+}
+
+.keys {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px 2px;
+}
+
+.result{
+    background-color: rgb(233, 195, 173);
+}
+
+.result:hover{
+    background-color: rgb(131, 125, 164);
+}
+
+button {
+    font-size:medium;
+    height: 50px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+button:hover{
+    background-color: #544a91;
+}
