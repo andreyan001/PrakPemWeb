@@ -59,12 +59,12 @@ class Mahasiswa extends Manusia {
     }
     }
 
-$Manusia1 = new Mahasiswa("Rio Aditya", 121140140, 2021, "Teknik Informatika");
+$Manusia1 = new Mahasiswa("Andreyan Renaldi", 121140186, 2021, "Teknik Informatika");
 
 echo "data lama:<br>";
 $Manusia1->displayInfo();
 
-$Manusia1->setProdi("Teknik Material");
+$Manusia1->setProdi("Teknik Elektro");
 echo "<br>info terbaru:<br>";
 $Manusia1->displayInfo();
 
